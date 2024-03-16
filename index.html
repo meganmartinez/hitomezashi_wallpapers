@@ -28,6 +28,21 @@
     margin: 10px 40px;
     } 
 
+    /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+justify-content: center;
+}
+
+
+
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,8 +67,54 @@
           view them on whichever side they desire!</p>
           <p>If you turn each of the wallhangings over, you get this:</p>
           <img src="Back.jpg" alt="Picture of Three Wallhangings" width=90% style="margin:2% 5%">
-        <div class="Container">
+        
+          <div class="Container">
+            <h2>Red Panel</h2>
+            <p>The red panel displays examples of hitomezashi-inspired designs with 
+              wallpaper groups p1 (top), p4m (middle), and pg (bottom).
+            </p>
+            <div class="row">
+            <div class="column">
+            <img src="Red_Front.jpg" alt="Front of Red Panel" style="width:100%">
+          </div>
+            <div class="column">
+            <img src="Red_Back.jpg" alt="Back of Red Panel" style="width:100%">
+          </div>
+        </div>
+          </div>
+
+          <div class="Container">
+            <h2>Yellow Panel</h2>
+            <p>The yellow panel displays examples of hitomezashi-inspired designs with 
+              wallpaper groups cmm (top), pmm (middle), and pm (bottom).
+            </p>
+            <div class="row">
+            <div class="column">
+            <img src="Yellow_Front.jpg" alt="Front of Yellow Panel" style="width:100%">
+          </div>
+            <div class="column">
+            <img src="Yellow_Back.jpg" alt="Back of Yellow Panel" style="width:100%">
+          </div>
+        </div>
+          </div>
+
+          <div class="Container">
+            <h2>Green Panel</h2>
+            <p>The green panel displays examples of hitomezashi-inspired designs with 
+              wallpaper groups cm (top), pmg (middle), and p2 (bottom - currently this is actually pmg again; 
+              edits are being made to replace with a p2 design).
+            </p>
+            <div class="row">
+            <div class="column">
+            <img src="Green_Front.jpg" alt="Front of Green Panel" style="width:100%">
+          </div>
+            <div class="column">
+            <img src="Green_Back.jpg" alt="Back of Green Panel" style="width:100%">
+          </div>
+        </div>
+          </div>
 <!--
+  <div class="Container">
           <h2>Boo: The baby of the family</h2>
           <img src="Boo.png" alt="Crocheted Boo Character" width=40% style="max-width:600px;margin:2% 5% 2% 5%">
           <p>Boo is the function \(f(x)=\sqrt{-0.33x+.83}\) for \(0 \leq x \leq 2.515\) rotated about the \(x\)-axis.</p>
